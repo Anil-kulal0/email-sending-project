@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+      {% block content %}
+
+      <div class="col-md-8 col-xs-12 col-sm-12 login_form ">
+            <div class="container-fluid">
+                  <div class="text-center">
+                        <h3>Hurry your mail is verified</h3>
+                        <div>
+                              Please login
+                        </div>
+                        
+                        <a class="btn-btn-primary" href="{% url 'login_attempt'%}">Login </a>
+                  </div>
+
+
+      {% endblock %}
